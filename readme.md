@@ -10,7 +10,8 @@ This is an application that is developed with Symfony, for printing Canvas with 
 ## Files that were created/modified in this development:
 
 * .gitignore
-For not incluiding txt files in the new folders: /public/upload and /public/download
+For not incluiding txt files in the new folders: /public/upload and /public/download.
+The effort is completed with .gitignore files inside these 2 folders.
 
 * composer.json and composer.lock
 For including the fast charge and recognize of the /app/Complements folder (with the classes and interfaces for the graph tool).
