@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello Uploading Commands for GraphTool!{% endblock %}
+
+{% block body %}
+<div class="bg-white p-5 contact-form">
+    {{ form_start(our_form) }}
+        <div class="form-group">
+            <a href='{{ TextRoute }}' target='_blank' style='visibility:{{ VisibleRoute }}'>Please click here to get the response text file with the canvas.</a><br />
+            WELCOME TO THE GRAPH TOOL WITH COMMANDS!<br />
+            Please, upload your file with commands:<br />
+            {{ form_row(our_form.attachment, {'attr': {'class': 'form-control'}}) }}
+        </div>
+        <div class="form-group">
+            {{ form_row(our_form.submit, {'attr': {'class': 'form-control'}}) }}
+        </div>
+    {{ form_end(our_form) }}
+</div>
+{% endblock %}
